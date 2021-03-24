@@ -19,6 +19,7 @@ const Navbar = ({ user, login }) => {
             <Link to="/supplier">Supplier</Link>
             <Link to="/client">client</Link>
           </div>
+
           {user ? (
             <i class="fas fa-sign-in-alt" onClick={login}>
               Login
