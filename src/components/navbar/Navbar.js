@@ -14,9 +14,9 @@ const Navbar = ({ user, login }) => {
       <Nav>
         <img src="/logo.png" alt="logo" />
         <div>
-          {user && <i class="fas fa-shopping-cart">Cart</i>}
           <div>
             <Link to="/supplier">Supplier</Link>
+            <a>&nbsp;</a>
             <Link to="/client">client</Link>
           </div>
 
